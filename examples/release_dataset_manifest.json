@@ -1,0 +1,19 @@
+{
+    "source_dataset":  "dataset_split_audio_csv_new_seed42",
+    "train":  {
+                  "total":  107,
+                  "released":  54,
+                  "fraction":  0.50467289719626163
+              },
+    "validation":  {
+                       "total":  13,
+                       "released":  8,
+                       "fraction":  0.61538461538461542
+                   },
+    "test":  {
+                 "total":  14,
+                 "released":  14,
+                 "fraction":  1
+             },
+    "notes":  "Train and validation subsets are heat-flux-stratified; test split is fully released."
+}

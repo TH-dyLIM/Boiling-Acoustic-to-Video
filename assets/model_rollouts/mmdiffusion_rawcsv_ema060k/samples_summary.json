@@ -1,0 +1,43 @@
+{
+  "checkpoint": ".\\outputs\\csv_residual_prior_260515\\ema_0.9999_060000.pt",
+  "data_dir": "D:\\DYLIM_연구교수\\Boiling Sound to Visualization\\dataset_split_audio_csv_new_seed42\\test\\video_100fps",
+  "num_videos": 14,
+  "num_chunks": 172,
+  "chunk_frames": 8,
+  "residual_scale": 2.0,
+  "sample_fn": "ddpm",
+  "timestep_respacing": "250",
+  "foreground_threshold": 0.04,
+  "min_component_area": 4,
+  "distribution_score_weights": {
+    "void": 1.0,
+    "spatial": 0.8,
+    "nucleation": 0.4,
+    "departure": 0.02
+  },
+  "metrics": {
+    "bubble_mask_iou_mean": 0.4343014857366071,
+    "departure_freq_mae_mean": 91242.42857142857,
+    "edge_mae_video_mean": 0.2243526844041688,
+    "fg_coverage_mean": 0.429480360022613,
+    "fg_mae_video_mean": 0.12479946336575917,
+    "mae_video_mean": 0.08890073666615146,
+    "mse_video_mean": 0.01978350550468479,
+    "nucleation_count_ks_mean": 0.7187765205091939,
+    "nucleation_count_mae_mean": 23.60259539740426,
+    "num_chunks_mean": 12.285714285714286,
+    "num_frames_mean": 94.35714285714286,
+    "pred_departure_freq_mean_mean": 153808.42857142858,
+    "pred_fg_coverage_mean": 0.5214110655444009,
+    "pred_nucleation_count_mean_mean": 25.568373680114746,
+    "pred_void_fraction_mean_mean": 0.5214110655444009,
+    "psnr_video_mean": 17.48260202204435,
+    "spatial_density_l1_mean": 0.286635805453573,
+    "target_departure_freq_mean_mean": 62566.0,
+    "target_nucleation_count_mean_mean": 27.26770223890032,
+    "target_void_fraction_mean_mean": 0.429480360022613,
+    "void_fraction_ks_mean": 0.8238543140028288,
+    "void_fraction_mae_mean": 0.22729855562959397,
+    "distribution_score": 0.8320091704445305
+  }
+}

@@ -1,0 +1,65 @@
+{
+    "source_dataset":  "dataset_split_audio_csv_new_seed42/val",
+    "selection_policy":  "Approximately 50% released using heat-flux-stratified selection.",
+    "total_source_audio_files":  13,
+    "selected_files":  8,
+    "selected_fraction":  0.61538461538461542,
+    "heat_flux_distribution":  [
+                                   {
+                                       "heat_flux_kW_m2":  5,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "5_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  20,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "20_7"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  30,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "30_2"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  100,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "100_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  200,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200_4"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  300,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_300_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  500,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_500_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  600,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_600_2"
+                                                 ]
+                                   }
+                               ]
+}

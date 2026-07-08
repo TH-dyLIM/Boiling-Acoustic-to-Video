@@ -1,0 +1,153 @@
+{
+    "source_dataset":  "dataset_split_audio_csv_new_seed42/train",
+    "selection_policy":  "Approximately 50% released using heat-flux-stratified selection.",
+    "total_source_audio_files":  107,
+    "selected_files":  54,
+    "selected_fraction":  0.50467289719626163,
+    "heat_flux_distribution":  [
+                                   {
+                                       "heat_flux_kW_m2":  0,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "0"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  5,
+                                       "count":  9,
+                                       "stems":  [
+                                                     "5_10",
+                                                     "5_2",
+                                                     "5_3",
+                                                     "5_4",
+                                                     "5_5",
+                                                     "5_6",
+                                                     "5_7",
+                                                     "5_8",
+                                                     "5_9"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  20,
+                                       "count":  7,
+                                       "stems":  [
+                                                     "20_1",
+                                                     "20_10",
+                                                     "20_2",
+                                                     "20_4",
+                                                     "20_5",
+                                                     "20_6",
+                                                     "20_8"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  30,
+                                       "count":  8,
+                                       "stems":  [
+                                                     "30_1",
+                                                     "30_10",
+                                                     "30_3",
+                                                     "30_5",
+                                                     "30_6",
+                                                     "30_7",
+                                                     "30_8",
+                                                     "30_9"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  40,
+                                       "count":  8,
+                                       "stems":  [
+                                                     "40_1",
+                                                     "40_2",
+                                                     "40_3",
+                                                     "40_4",
+                                                     "40_5",
+                                                     "40_7",
+                                                     "40_8",
+                                                     "40_9"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  100,
+                                       "count":  5,
+                                       "stems":  [
+                                                     "100_1",
+                                                     "100_2",
+                                                     "100_4",
+                                                     "200412_100_2",
+                                                     "200412_100_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  200,
+                                       "count":  2,
+                                       "stems":  [
+                                                     "200_1",
+                                                     "200_2"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  300,
+                                       "count":  7,
+                                       "stems":  [
+                                                     "200412_300_1",
+                                                     "200412_300_2",
+                                                     "300_1",
+                                                     "300_12",
+                                                     "300_13",
+                                                     "300_2",
+                                                     "300_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  400,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_400_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  500,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_500_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  600,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_600_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  700,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "700_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  800,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_800_1"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  895,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "895chf_3"
+                                                 ]
+                                   },
+                                   {
+                                       "heat_flux_kW_m2":  900,
+                                       "count":  1,
+                                       "stems":  [
+                                                     "200412_900_1"
+                                                 ]
+                                   }
+                               ]
+}

@@ -1,0 +1,27 @@
+{
+  "num_samples": 14,
+  "full_video_rollout": true,
+  "checkpoint": "outputs\\flow_residual_csv8_noprior_c128_rawamp\\best.pt",
+  "checkpoint_step": 40000,
+  "num_inference_steps": 30,
+  "cfg_scale": 1.0,
+  "prior_mode": "none",
+  "roi_mode": "normal",
+  "metrics": {
+    "departure_freq_mae_mean": 14885.357142857143,
+    "mae_video_mean": 0.062431274580636194,
+    "mse_video_mean": 0.016747101318157678,
+    "nucleation_count_ks_mean": 0.2998302687411599,
+    "nucleation_count_mae_mean": 3.135912311928613,
+    "pred_departure_freq_mean_mean": 49059.642857142855,
+    "pred_nucleation_count_mean_mean": 8.766315358025688,
+    "pred_void_fraction_mean_mean": 0.4919182136654854,
+    "psnr_video_mean": 21.8883943881061,
+    "spatial_density_l1_mean": 0.09194269217550755,
+    "target_departure_freq_mean_mean": 62625.71428571428,
+    "target_nucleation_count_mean_mean": 10.066697435719627,
+    "target_void_fraction_mean_mean": 0.430064069373267,
+    "void_fraction_ks_mean": 0.6703677510608202,
+    "void_fraction_mae_mean": 0.08060892378645283
+  }
+}

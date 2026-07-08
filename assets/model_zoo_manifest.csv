@@ -1,0 +1,7 @@
+﻿"model_id","label","fvd_r3d18","fid_inception_v3","checkpoint_file","checkpoint_size_mb","github_rollout_dir","mp4_count","gif_count","rollout_media_size_mb"
+"flow_noprior_c128_rawamp","Flow matching best FVD","109.839","151.502","model_checkpoints/flow_noprior_c128_rawamp_best.pt","1422.44","assets/model_rollouts/flow_noprior_c128_rawamp","14","14","46.74"
+"ldm_customvae_c128_rawamp","LDM best","176.849","162.525","model_checkpoints/ldm_customvae_c128_rawamp_best.pt","1426.77","assets/model_rollouts/ldm_customvae_c128_rawamp","14","14","42.35"
+"patchgan_edge_ms","PatchGAN best","189.358","210.364","model_checkpoints/patchgan_edge_ms_best.pt","200.26","assets/model_rollouts/patchgan_edge_ms","14","14","245.27"
+"mmdiffusion_rawcsv_ema060k","MM-Diffusion best","224.629","222.992","model_checkpoints/mmdiffusion_rawcsv_ema060000.pt","261.78","assets/model_rollouts/mmdiffusion_rawcsv_ema060k","14","14","53.22"
+"dit_flow_c128_rawamp","DiT-Flow best","176.484","211.319","model_checkpoints/dit_flow_c128_rawamp_best.pt","1537.56","assets/model_rollouts/dit_flow_c128_rawamp","14","14","50.07"
+"mmdiffusion_stft2d_ema060k","MM-Diffusion STFT2D paper figure","","","model_checkpoints/mmdiffusion_stft2d_ema060000.pt","261.86","assets/paper_selected_videos/MM-Diffusion_customized_260515_stft2d","14","0","0.82"

@@ -1,0 +1,23 @@
+{
+  "num_samples": 14,
+  "checkpoint": "outputs\\ldm_residual_csv8_noprior_c128_rawamp_customvae_bg_roi\\best.pt",
+  "checkpoint_step": 32000,
+  "full_video_rollout": true,
+  "metrics": {
+    "departure_freq_mae_mean": 34831.42857142857,
+    "mae_video_mean": 0.05930600182286331,
+    "mse_video_mean": 0.013606896746620935,
+    "nucleation_count_ks_mean": 0.4981895332390382,
+    "nucleation_count_mae_mean": 4.980487993785313,
+    "pred_departure_freq_mean_mean": 91569.42857142857,
+    "pred_nucleation_count_mean_mean": 12.693225043160576,
+    "pred_void_fraction_mean_mean": 0.3354981562920979,
+    "psnr_video_mean": 22.3924532977582,
+    "spatial_density_l1_mean": 0.13769113778003625,
+    "target_departure_freq_mean_mean": 62625.71428571428,
+    "target_nucleation_count_mean_mean": 10.066697435719627,
+    "target_void_fraction_mean_mean": 0.4300640688410827,
+    "void_fraction_ks_mean": 0.6436987270155587,
+    "void_fraction_mae_mean": 0.11685379993702684
+  }
+}
