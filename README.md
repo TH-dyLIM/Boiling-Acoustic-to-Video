@@ -64,9 +64,9 @@ assets/paper_selected_videos/
 
 The `examples/` folder contains a representative public release of the corrected CSV acoustic-video dataset:
 
-- `train_50pct_representative/`: 53 of 107 training cases
-- `val_50pct_representative/`: 8 of 13 validation cases
-- `test_full/`: 14 of 14 test cases (100%)
+- `train_50pct_representative/`: 53 training cases
+- `val_50pct_representative/`: 8 validation cases
+- `test_full/`: 14 test cases
 
 The train and validation subsets were selected to preserve heat-flux coverage. The full held-out test split is included so reviewers can run inference and evaluate the reported test behaviour directly.
 
