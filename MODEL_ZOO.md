@@ -15,7 +15,7 @@ Large checkpoint files are packaged separately for archival upload under:
 ../boiling-acoustic-video-generation-large-assets/model_checkpoints/
 ```
 
-Before public release, upload those checkpoint files to Zenodo, Figshare, institutional storage, or Git LFS, and replace the placeholder links in `README.md` and `checkpoints/README.md`.
+Before public release, upload those checkpoint files to Figshare and replace the placeholder links in `README.md` and `checkpoints/README.md`.
 
 ## Main Models
 
@@ -50,4 +50,3 @@ flow_noprior_c128_rawamp
 ```
 
 It is a no-video-prior residual conditional flow-matching model with a pixel-space 3D U-Net backbone. Inference uses only the raw CSV acoustic waveform, static background image, and heating ROI mask.
-

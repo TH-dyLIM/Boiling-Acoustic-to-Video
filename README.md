@@ -64,9 +64,9 @@ assets/paper_selected_videos/
 
 The `examples/` folder contains a representative public release of the corrected CSV acoustic-video dataset:
 
-- `train_50pct_representative/`: 53 training cases
-- `val_50pct_representative/`: 8 validation cases
-- `test_full/`: 14 test cases (100%)
+- `train_50pct_representative/`: 54 of 107 training cases (50.47%)
+- `val_50pct_representative/`: 8 of 13 validation cases (61.54%; selected to include every validation heat-flux group)
+- `test_full/`: 14 of 14 test cases (100%)
 
 The train and validation subsets were selected to preserve heat-flux coverage. The full held-out test split is included so reviewers can run inference and evaluate the reported test behaviour directly.
 
@@ -80,10 +80,10 @@ Included per case:
 Release summary:
 
 ```text
-Train: 53 cases
-Validation: 8 cases
-Test: 14 cases = 100%
-Train heat-flux coverage: 0, 5, 20, 30, 40, 100, 200, 300, 400, 500, 600, 700, 800, 900 kW/m^2
+Train: 54 / 107 cases = 50.47%
+Validation: 8 / 13 cases = 61.54%
+Test: 14 / 14 cases = 100%
+Train heat-flux coverage: 0, 5, 20, 30, 40, 100, 200, 300, 400, 500, 600, 700, 800, 895, 900 kW/m^2
 Test heat-flux coverage: 20, 30, 40, 100, 200, 300, 400, 500, 600, 700, 895 kW/m^2
 ```
 
@@ -110,7 +110,7 @@ assets/paper_selected_videos/
 assets/model_rollouts/
 ```
 
-The trained checkpoints are too large for a normal GitHub repository and should be distributed through Zenodo, Figshare, institutional storage, or Git LFS. The local archival payload prepared for upload is:
+The trained checkpoints are too large for a normal GitHub repository and are distributed through Figshare. The local archival payload prepared for upload is:
 
 ```text
 ../boiling-acoustic-video-generation-large-assets/model_checkpoints/
@@ -135,10 +135,10 @@ assets/model_zoo_manifest.csv
 assets/paper_selected_videos/paper_selected_video_manifest.csv
 ```
 
-Download the main trained checkpoint from:
+Download the main trained checkpoint from the Figshare record:
 
 ```text
-TODO_ZENODO_OR_FIGSHARE_CHECKPOINT_URL
+https://doi.org/10.6084/m9.figshare.32942918
 ```
 
 Place the checkpoint here:
@@ -266,12 +266,16 @@ python scripts/benchmark_flow_inference_cost.py --help
 
 ## Data and Code Availability Notes
 
-This repository is prepared for reviewer testing. For a public archival release, the recommended structure is:
+This repository is prepared for reviewer testing. For the public archival release, the recommended structure is:
 
 - GitHub: source code, configs, README, representative subset
-- Zenodo/Figshare: trained checkpoint, larger data files, expected outputs
+- Figshare: trained checkpoints, release archive, larger data files, expected outputs
 
-Replace all `TODO_ZENODO_OR_FIGSHARE_*` placeholders with the final archive URLs or DOIs before submitting the links to the journal.
+The archived data/model/code package is available at:
+
+```text
+https://doi.org/10.6084/m9.figshare.32942918
+```
 
 ## Citation
 
