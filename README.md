@@ -80,9 +80,9 @@ Included per case:
 Release summary:
 
 ```text
-Train: 53 cases = 50.47%
-Validation: 8 cases = 61.54%
-Test: 14 cases = 100%
+Train: 53 cases
+Validation: 8 cases
+Test: 14 cases
 Train heat-flux coverage: 0, 5, 20, 30, 40, 100, 200, 300, 400, 500, 600, 700, 800, 900 kW/m^2
 Test heat-flux coverage: 20, 30, 40, 100, 200, 300, 400, 500, 600, 700, 895 kW/m^2
 ```
